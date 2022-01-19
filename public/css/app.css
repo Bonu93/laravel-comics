@@ -1,3 +1,81 @@
+.text-center {
+  text-align: center;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.h-100 {
+  height: 100%;
+}
+
+.main-header {
+  background: #fff;
+}
+.main-header .brand {
+  padding: 0.3rem;
+  margin-right: 50px;
+}
+.main-header .brand img {
+  width: 80px;
+}
+.main-header .brand a {
+  height: 100%;
+  width: 100%;
+  display: block;
+  border-bottom: 1px solid transparent;
+  text-decoration: none;
+  color: inherit;
+}
+.main-header nav ul {
+  list-style: none;
+}
+.main-header nav ul li {
+  list-style: none;
+  text-transform: uppercase;
+  margin: 0 1rem;
+}
+.main-header nav ul li a {
+  border-bottom: 3px solid transparent;
+  text-decoration: none;
+  color: inherit;
+  font-weight: 600;
+}
+.main-header nav ul li a:hover {
+  color: #0b7be9;
+  border-bottom: 3px solid #0b7be9;
+}
+
+footer {
+  background-color: black;
+}
+
+.gallery {
+  flex-wrap: wrap;
+}
+.gallery .card {
+  width: 16.6666666667%;
+  padding: 0.5rem;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -7,4 +85,16 @@
 
 img {
   max-width: 100%;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex-grow: 1;
+  overflow: auto;
+  background-color: #303030;
 }

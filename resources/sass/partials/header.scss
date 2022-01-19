@@ -1,0 +1,40 @@
+.main-header {
+    background: $bg-white;
+    .brand {
+        padding: .3rem;
+        margin-right: 50px;
+        img {
+            width: 80px;
+        }
+        a {
+            height: 100%;
+            width: 100%;
+            display: block;
+            border-bottom: 1px solid transparent;
+            text-decoration: none;
+            color: inherit;
+            
+        }
+    }
+    nav {
+        ul {
+            list-style: none;
+            li {
+                list-style: none;
+                text-transform: uppercase;
+                margin: 0 1rem;
+                a {
+                    border-bottom: 3px solid transparent;
+                    text-decoration: none;
+                    color: inherit;
+                    font-weight: 600;
+                    &:hover {
+                        color: $txt-sec;
+                        border-bottom: 3px solid $txt-sec;
+                    }
+                }
+            }
+        }
+    }
+}
+

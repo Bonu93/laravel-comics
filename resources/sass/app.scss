@@ -1,4 +1,11 @@
-//
+
+@import '/resources/sass/partials/vars';
+@import '/resources/sass/partials/utilities';
+@import '/resources/sass/partials/header';
+@import '/resources/sass/partials/footer';
+@import '/resources/sass/partials/comics';
+
+
 * {
     margin: 0;
     padding: 0;
@@ -10,8 +17,17 @@ img {
     max-width: 100%;
 }
 
-@import '/resources/sass/partials/vars';
-@import '/resources/sass/partials/utilities';
-@import '/resources/sass/partials/header';
-@import '/resources/sass/partials/footer';
-@import '/resources/sass/partials/comics';
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex-grow: 1;
+    overflow: auto;
+    background-color: $bg-alt;
+}
+
+
+
