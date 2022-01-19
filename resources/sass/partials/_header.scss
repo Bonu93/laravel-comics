@@ -29,11 +29,16 @@
                     text-decoration: none;
                     color: inherit;
                     font-weight: 600;
+                    &.active {
+                        color: $txt-sec;
+                            border-bottom: 3px solid $txt-sec;
+                    }
                     &:hover {
                         color: $txt-sec;
                         border-bottom: 3px solid $txt-sec;
                     }
                 }
+                
             }
         }
     }

@@ -232,7 +232,7 @@ Route::get('/', function () {
     return view('home', [
         'comics'=> $comics,
     ]);
-});
+})->name('home');
 
 Route::get('/news', function () {
     return view('news');
