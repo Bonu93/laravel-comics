@@ -26,7 +26,10 @@ body {
 main {
     flex-grow: 1;
     overflow: auto;
-    background-color: $bg-alt;
+    background-color: $bg-main;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
