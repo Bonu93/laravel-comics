@@ -1,1 +1,17 @@
 //
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+@import '/resources/sass/partials/vars';
+@import '/resources/sass/partials/utilities';
+@import '/resources/sass/partials/header';
+@import '/resources/sass/partials/footer';
+@import '/resources/sass/partials/comics';
