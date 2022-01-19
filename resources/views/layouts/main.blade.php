@@ -13,6 +13,10 @@
     <main>
         @yield('main-content')
     </main>
+    <div class="bar">
+            
+    </div>
+
     
     @include('partials.footer')
 </body>

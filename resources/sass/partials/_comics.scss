@@ -20,4 +20,14 @@
             }
         }
     }
+    .load-more {
+        text-transform: uppercase;
+        color: $txt-alt;
+        background: $txt-sec;
+        border: 0;
+        padding: .5rem 2rem;
+        font-weight: 600;
+        cursor: pointer;
+        font-size: .8rem;
+    }
 }

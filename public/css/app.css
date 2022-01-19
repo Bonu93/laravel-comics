@@ -19,6 +19,10 @@
   justify-content: center;
 }
 
+.justify-content-between {
+  justify-content: space-between;
+}
+
 .align-items-center {
   align-items: center;
 }
@@ -29,6 +33,7 @@
 
 .main-header {
   background: #fff;
+  height: 100px;
 }
 .main-header .brand {
   padding: 0.3rem;
@@ -64,8 +69,29 @@
   border-bottom: 3px solid #0b7be9;
 }
 
-footer {
-  background-color: black;
+.main-footer {
+  background: #303030;
+  padding: 2rem 0;
+}
+.main-footer .sign-up {
+  border: 3px solid #0b7be9;
+  color: #fff;
+  font-size: 1.2rem;
+  background: transparent;
+  padding: 1rem;
+  text-transform: uppercase;
+}
+.main-footer .social h3 {
+  color: #0b7be9;
+  margin-right: 2rem;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+}
+.main-footer .social .social-icons {
+  list-style: none;
+}
+.main-footer .social .social-icons li {
+  margin-right: 1rem;
 }
 
 .gallery {
@@ -93,6 +119,16 @@ footer {
   -o-object-position: top;
      object-position: top;
 }
+.gallery .load-more {
+  text-transform: uppercase;
+  color: #fff;
+  background: #0b7be9;
+  border: 0;
+  padding: 0.5rem 2rem;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 0.8rem;
+}
 
 * {
   margin: 0;
@@ -106,16 +142,20 @@ img {
 }
 
 body {
-  height: 100vh;
   display: flex;
   flex-direction: column;
 }
 
 main {
-  flex-grow: 1;
-  overflow: auto;
   background-color: #1c1c1c;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 2rem 0;
+}
+
+.bar {
+  background: #0b7be9;
+  padding: 0.8rem;
 }
