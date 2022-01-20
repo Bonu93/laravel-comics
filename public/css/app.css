@@ -108,6 +108,11 @@
   padding: 0.5rem;
   margin-bottom: 1rem;
 }
+.gallery .card a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
 .gallery .card h3 {
   font-size: 0.8rem;
   text-transform: uppercase;

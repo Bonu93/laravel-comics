@@ -1,43 +1,14 @@
 
-@import '/resources/sass/partials/vars';
-@import '/resources/sass/partials/utilities';
-@import '/resources/sass/partials/header';
-@import '/resources/sass/partials/footer';
-@import '/resources/sass/partials/comics';
+@import 'partials/vars';
+@import 'partials/utilities';
+@import 'partials/header';
+@import 'partials/footer';
+@import 'partials/comics';
+@import 'partials/commons';
 
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
-}
 
-img {
-    max-width: 100%;
-}
 
-body {
-    // height: 100vh;
-    display: flex;
-    flex-direction: column;
-}
-
-main {
-    // flex-grow: 1;
-    // overflow: auto;
-    background-color: $bg-main;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 2rem 0;
-}
-
-.bar {
-    background: $txt-sec;
-    padding: .8rem;
-}
 
 
 
