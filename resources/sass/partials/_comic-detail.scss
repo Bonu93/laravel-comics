@@ -1,11 +1,14 @@
 .detail-container {
     width: 900px;
     margin: 0 auto;
-    height: 40%;
 }
 
 .comic-detail {
     width: 100%;
+    .content {
+        height: 400px;
+
+    }
     .comic-jumbo {
         background-image: url('/images/jumbotron.jpg');
         height: 480px;
@@ -16,13 +19,41 @@
         width: 70%;
     }
     .ad {
+        padding-left: 2rem;
         width: 30%;
     }
     .thumb {
         position: relative;
-        top: 100%;
+        top: 40%;
         left: 0;
         border: 2px solid $txt-alt;
+    }
+    h3 {
+        text-transform: uppercase;
+        color: $txt-detail-title;
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+    .green-bar {
+        background: $bg-buy-bar;
+        padding: 1rem;
+        color: $txt-alt;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        margin-bottom: 1rem;
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+        .buy-details {
+            width: 70%;
+            
+        }
+        .cta {
+            width: 30%;
+        }
+        .detail {
+            color: $txt-buy-bar;
+        }
     }
 }
 

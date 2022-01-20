@@ -31,6 +31,10 @@
   height: 100%;
 }
 
+.w-100 {
+  width: 100%;
+}
+
 .main-header {
   background: #fff;
   height: 100px;
@@ -177,11 +181,13 @@ main {
 .detail-container {
   width: 900px;
   margin: 0 auto;
-  height: 40%;
 }
 
 .comic-detail {
   width: 100%;
+}
+.comic-detail .content {
+  height: 400px;
 }
 .comic-detail .comic-jumbo {
   background-image: url("/images/jumbotron.jpg");
@@ -193,11 +199,38 @@ main {
   width: 70%;
 }
 .comic-detail .ad {
+  padding-left: 2rem;
   width: 30%;
 }
 .comic-detail .thumb {
   position: relative;
-  top: 100%;
+  top: 40%;
   left: 0;
   border: 2px solid #fff;
+}
+.comic-detail h3 {
+  text-transform: uppercase;
+  color: #104160;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+.comic-detail .green-bar {
+  background: #55ba59;
+  padding: 1rem;
+  color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-bottom: 1rem;
+}
+.comic-detail .green-bar a {
+  text-decoration: none;
+  color: inherit;
+}
+.comic-detail .green-bar .buy-details {
+  width: 70%;
+}
+.comic-detail .green-bar .cta {
+  width: 30%;
+}
+.comic-detail .green-bar .detail {
+  color: #a6ee80;
 }
