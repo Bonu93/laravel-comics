@@ -140,6 +140,12 @@
   font-size: 0.8rem;
 }
 
+.comics {
+  width: 100%;
+  background: #1c1c1c;
+  padding: 2rem 0;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -157,15 +163,41 @@ body {
 }
 
 main {
-  background-color: #1c1c1c;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 2rem 0;
 }
 
 .bar {
   background: #0b7be9;
   padding: 0.8rem;
+}
+
+.detail-container {
+  width: 900px;
+  margin: 0 auto;
+  height: 40%;
+}
+
+.comic-detail {
+  width: 100%;
+}
+.comic-detail .comic-jumbo {
+  background-image: url("/images/jumbotron.jpg");
+  height: 480px;
+  width: 100%;
+  border-bottom: 80px solid #0b7be9;
+}
+.comic-detail .description {
+  width: 70%;
+}
+.comic-detail .ad {
+  width: 30%;
+}
+.comic-detail .thumb {
+  position: relative;
+  top: 100%;
+  left: 0;
+  border: 2px solid #fff;
 }
