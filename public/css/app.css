@@ -187,7 +187,7 @@ main {
   width: 100%;
 }
 .comic-detail .content {
-  height: 400px;
+  min-height: 450px;
 }
 .comic-detail .comic-jumbo {
   background-image: url("/images/jumbotron.jpg");
